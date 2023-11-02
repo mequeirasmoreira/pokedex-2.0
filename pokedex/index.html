@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="/assets/css/pokedex.css">
+    <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/home.css">
+
+</head>
+
+<body>
+    <img src="/assets/img/pokemon-icon.svg" alt="Logotype" class="logo-type">
+    <section>
+
+
+        <h1>Qual pokemon você está procurando hoje?</h1>
+
+        <form>
+            <input type="search" id="search-bar" autocomplete="on" placeholder="Nome, movimento, habilidade, etc">
+        </form>
+
+        <div id="filters-list">
+            <div class="filter-items grass" id="pokedex">Pokedex</div>
+            <div class="filter-items fire" id="filter-moves">Moves</div>
+            <div class="filter-items water" id="filter-abilities">Abilities</div>
+            <div class="filter-items electric" id="filter-items">Items</div>
+            <div class="filter-items poison" id="filter-locations">Locations</div>
+            <div class="filter-items dark" id="filter-type-charts">Type Charts</div>
+        </div>
+
+        <div id="generations-list">
+            <div class="generation-item" id="filter-generation-i"> Generation I</div>
+            <div class="generation-item" id="filter-generation-ii"> Generation II</div>
+            <div class="generation-item" id="filter-generation-iii"> Generation III</div>
+            <div class="generation-item" id="filter-generation-iv"> Generation IV</div>
+        </div>
+    </section>
+
+    <script src="/assets/js/links.js"></script>
+</body>
+
+</html>
